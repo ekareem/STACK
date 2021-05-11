@@ -1,0 +1,123 @@
+#score {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: -webkit-fill-available;
+    font-size: 5em;
+    top: 1em;
+}
+
+#instruction{
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 15%;
+    width: -webkit-fill-available;
+    font-size: 2em;
+    border-color: #ffffff;
+    border-style: solid;
+    margin-left: 10em;
+    margin-right: 10em;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+p{
+    font-size:0.7em;
+}
+
+#report{
+    font-size:1em;
+    color: blue;
+    display: none;
+}
+#start{
+    font-size:2em;
+    font-style: bold;
+    width: fit-content;
+    margin: 0 auto;
+
+    width:180px;
+    display:inline-block;/*top and bottom padding done respectively*/
+    padding:20px 0px;
+    text-align: center;font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
+    position: relative; /*normal default position of button*/
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    border-radius: 24px;
+}
+
+.button.play {
+    width: 74px;
+    height: 74px;
+    border-style: solid;
+    border-width: 37px;
+    border-color: #202020;
+    border-width: 37px 37px 37px 37px;
+    border-color: red blue green yellow;
+    border-width: 37px 0px 37px 74px;
+    border-color: red blue green yellow;
+    box-sizing: border-box;
+    width: 74px;
+    height: 74px;
+    border-width: 37px 0px 37px 74px;
+    border-color: rgba(0,0,0,255) rgba(0,0,0,255) rgba(0,0,0,255) #ffffff;
+}
+
+.button.pause {
+
+    width: 74px;
+    height: 74px;
+    border-style: solid;
+    border-width: 37px;
+    border-color: #202020;
+    border-style: double;
+    border-width: 0px 37px 0px 37px;
+    border-width: 0px 0px 0px 37px;
+    border-color: #ffffff;
+    background-color: rgba(0,0,0,255)
+}
+
+.button {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    box-sizing: border-box;
+    height: 74px;
+    
+    border-color: rgba(0,0,0,255) rgba(0,0,0,255) rgba(0,0,0,255) #202020;
+    transition: 100ms all ease;
+    will-change: border-width;
+    cursor: pointer;
+  }
+
+
+  #outer-circle {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: #ffffff;
+    border-radius: 50%;
+    height: 74px;
+    width: 74px;
+
+ }
+ #inner-circle {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: #000000;
+
+    border-radius: 50%;
+    height: 44px;
+    width: 44px;
+
+    top: 50%;
+    left: 50%;
+    margin: -21px 0px 0px -21px;
+ }
+
